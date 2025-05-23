@@ -4,6 +4,7 @@ import requests
 
 # Base URL of your FastAPI server (adjust if running on a different machine)
 BASE_URL = "http://127.0.0.1:8000"
+# or live website - https://fastapi-75jc.onrender.com/
 
 # 1. GET the homepage
 response = requests.get(f"{BASE_URL}/")
